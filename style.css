@@ -1,0 +1,909 @@
+ 
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    /* border: 1px solid red; */
+}
+
+.main-container{
+    width: 100%;
+    height: auto;
+}
+
+.header{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;    
+    justify-content: space-between;
+    /* background-color: aqua; */
+    padding-left: 50px;
+    padding-right: 40px;
+    position: fixed;
+    background-color: white;
+}
+
+.header .content{
+    width: 50%;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+.content li{
+   color: #484040;
+}
+
+.content img{
+    width: 30px;
+    border-radius: 7px;
+}
+
+.content li{
+
+    font-size: 18px;
+    font-weight: 200;
+}
+
+.header .icon{
+    width: 30%;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+.icon li{
+
+    font-size: 18px;
+    font-weight: 200;
+    color: #484040;
+}
+
+/* redmi a2 series */
+
+.redmi-a2{
+
+    width: 100%;
+    height:70vh;
+    background-image: url(./966c2b1916d683a0597138a146ddd1dd.gif);
+    background-size: cover;
+    
+}
+
+.redmi-a2 h1{
+
+    font-size: 35px;
+    color: white;
+    padding-top: 150px;
+    margin-left: 200px;
+    
+ }
+
+ .redmi-a2 h2{
+
+    font-size: 25px;
+    margin-top: 40px;
+    color: white;
+    margin-left: 200px;
+ }
+
+ .redmi-a2 button{
+
+    width: 10%;
+    height: 30px;
+    font-size: 15px;
+    border-radius: 10px;
+    border: none;
+    margin-top: 40px;
+    margin-left: 200px;
+ }
+
+ .redmi-a2 button:hover{
+
+    background-color: rgb(226, 207, 207);
+ }
+
+
+/* xiaomi 13 */
+
+ .xiaomi-13{
+
+    width: 100%;
+    height: 70vh;
+    background-image: url(./a7e81b295830efb9d9dd3c02e5842b05.webp);
+    background-size: cover;
+  
+    }
+
+   .xiaomi-13 h3{
+
+    font-size: 22px;
+    margin-left: 250px;
+    padding-top: 17%;
+    font-weight: 400;
+    }
+
+    
+ .xiaomi-13 button{
+
+    width: 9%;
+    height: 40px;
+    border-radius: 15px;
+    border: none;
+    background-color: black;
+    color: white;
+    margin-left: 19%;
+    margin-top: 10px;
+     
+ }
+
+ .xiaomi-13 button:hover{
+
+    background-color: rgb(48, 43, 43);
+ }
+
+ /* sehwag div */
+
+ .sehwag{
+
+    width: 100%;
+    height: 75vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    /* border: 1px solid red; */
+    padding: 20px;
+    
+ }
+
+ .xiaomi{
+
+    width: 50%;
+    height: 70vh;
+    background-image: url(./india\ e\ waste.webp);
+    background-size: cover;
+    background-position: center;
+    margin-right: 10px;
+    
+ }
+
+ .xiaomi h3{
+
+    color: white;
+    font-size: 35px;
+    margin-top: 50px;
+    margin-left: 150px;
+    font-weight: 400;  
+ }
+
+ .xiaomi h4{
+
+    color: white;
+    font-weight: 400;
+    margin-top: 30px;
+    margin-left: 270px;
+    font-weight: 400;
+ }
+
+ .xiaomi h4 a{
+
+   text-decoration: none;
+   color: white;
+ }
+
+ .xiaomi h4 a:hover{
+
+   border-bottom: 1px solid white;
+ }
+
+
+ .student{
+
+    width: 50%;
+    height: 70vh;
+    background-image: url(./student.webp);
+    background-size: cover;
+   }
+
+  .student h3{
+
+    color: white;
+    font-size: 35px;
+    margin-left: 250px;
+    padding-top: 50px;
+    font-weight: 400;
+  
+ }
+
+ .student h4{
+
+    color: white;
+    font-weight: 400;
+    margin-left: 250px;
+    font-weight: 400;
+ }
+
+ .student p{
+
+    color: white;
+    font-weight: 400;
+    margin-left: 270px;
+    margin-top: 10px;
+    font-weight: 400;
+ }
+
+ .student p a{
+
+   text-decoration: none;
+   color: white;
+ }
+
+ .student p a:hover{
+
+   border-bottom: 1px solid white;
+ }
+
+
+ /* xiaomi smart tv pro series */
+
+ .xiaomi-smart{
+
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+
+ }
+
+ .smart-tv{
+
+    width: 50%;
+    height: 70vh;
+    background-image: url(./smart\ tv.webp);
+    background-size: cover;
+    background-position: center;
+    margin-right: 10px;
+ }
+
+
+ .smart-tv h1{
+
+    font-size: 30px;
+    margin-left: 110px;
+    margin-top: 50px;
+    color: white;
+  }
+
+
+ .smart-tv h2{
+    font-size: 15px;
+    margin-left: 170px;
+    color: white;
+    margin-top: 10px;
+ }
+
+
+ .smart-tv h4{
+
+    margin-left: 90px;
+    color: white;
+    margin-left: 250px;
+    margin-top: 25px;
+    font-weight: 200;
+ }
+
+ .smart-tv h4 a{
+
+   text-decoration: none;
+   color: white;
+ }
+
+ .smart-tv h4 a:hover{
+
+   border-bottom: 1px solid white;
+ }
+
+
+ .laptops{
+
+    width: 25%;
+    height: 70vh;
+    background-image: url(./laptops\ tablet.webp);
+    background-size: cover;
+    background-position: center;
+    margin-right: 10px;
+ }
+
+ .laptops h1{
+
+    margin-left: 30px;
+    margin-top: 40px;
+    color: white;
+    font-weight: 400;
+ }
+
+ .laptops h4{
+
+    margin-left: 130px;
+    margin-top: 50px;
+    color: white;
+    font-weight: 200;
+ }
+
+ .laptops h4 a{
+
+   text-decoration: none;
+   color: white;
+ }
+
+ .laptops h4 a:hover{
+
+   border-bottom: 1px solid white;
+ }
+
+ .beard-trimmer{
+
+    width: 25%;
+    height: 70vh;
+    
+  }
+
+  .beard-txt h1{
+
+    margin-top: 40px;
+    font-weight: 400;
+    text-align: center;
+
+  }
+
+
+  .beard-txt h4{
+    
+    text-align: center;
+    margin-top: 30px;
+    color: rgb(218, 37, 37);
+    font-weight: 200;
+
+  }
+
+  .beard-txt h4 a{
+
+   text-decoration: none;
+   color: rgb(184, 30, 30);
+ }
+
+ .beard-txt h4 a:hover{
+
+   border-bottom: 1px solid rgb(212, 8, 8);
+ }
+
+ .beard-machine img{
+
+   width: 275px;
+   align-items: center;
+   margin-left: 20px;
+   /* border: 1px solid rgb(212, 8, 8); */
+
+ }
+
+  
+ /* xiaomi support */
+
+ .xiaomi-support{
+
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+    /* border: 1px solid red; */
+ }
+
+ 
+ .xiaomi-support img{
+
+    width: 50% ;
+
+ }
+
+ .xiaomi-txt{
+
+    width: 50%;
+    flex-direction: column;
+    
+ }
+
+ .xiaomi-txt h1{
+
+    width: 80%;
+    margin-left: 30%;
+  }
+
+ .xiaomi-txt h3{
+
+    margin-left: 50%;
+    padding-bottom: 20%;
+    padding-top: 5%;
+    color: gray;
+ }
+
+ .xiaomi-txt h3 a{
+
+   text-decoration: none;
+   color: gray;
+ }
+
+ .xiaomi-txt h3 a:hover{
+
+   border-bottom: 1px solid black;
+ }
+
+ 
+
+ /* <!-- xiaomi care --> */
+
+ .grid-container{
+
+   width: 100%;
+   height: 90vh;
+   background-color: rgb(232, 226, 226);
+   display: grid;
+   grid-template-columns: repeat(2, 1fr);
+   grid-template-rows: repeat(2, 1fr);
+   gap: 20px;
+   padding: 20px;
+ }
+
+
+ .box-a{
+   background-color: white;
+   grid-row: 1/3;
+   grid-column: 1/2;
+  }
+
+  .box-a h1{
+
+   margin-left: 250px;
+   font-size: 30px;
+    margin-top: 70px;
+  }
+
+  .box-img{
+
+   width: 90%;
+   display: flex;
+   align-items: center;
+   justify-content: space-around;
+  
+  }
+
+  .box-img img{
+
+   width: 8%;
+   height: 8vh;
+   margin-left: 100px;
+   margin-top: 70px;
+    font-size: 5px;
+  }
+
+  .box-txt{
+
+   display: flex;
+   align-items: center;
+   justify-content: center;
+  }
+
+
+  .box-txt h3{
+
+   width: 100%;
+   font-size: 15px;
+   margin-top: 20px;
+    margin-left: 50px;
+   color: gray;
+   font-weight: 400;
+   padding-right: 10px;
+   }
+
+   .box-txt h3 a{
+
+      text-decoration: none;
+      color: rgb(69, 61, 61);
+   }
+
+   .box-txt h3 a:hover{
+
+      border-bottom: 1px solid black;
+   }
+
+
+ .box-b{
+   background-color: white;
+   grid-row: 1/2;
+   grid-column: 2/3;
+   
+ }
+
+ .box-b h2{
+   
+   font-size: 35px;
+   margin-left: 200px;
+   margin-top: 80px;
+   
+   
+ }
+
+ .box-b h3{
+
+   margin-left: 180px;
+   font-size: 17px;
+   color: gray;
+   font-weight: 200;
+   margin-top: 20px;
+   margin-left: 200px;
+   
+ }
+
+ .box-b h3 a{
+
+   text-decoration: none;
+   color: rgb(69, 61, 61);
+}
+
+.box-b h3 a:hover{
+
+   border-bottom: 1px solid black;
+}
+
+
+ .box-c{
+   background-color: white;
+   grid-row: 2/3;
+   grid-column: 2/3;
+ }
+
+ .box-c h2{
+   
+   font-size: 35px;
+   margin-left: 220px;
+   margin-top: 70px;
+    
+ }
+
+ .box-c h3{
+
+   margin-left: 130px;
+   font-size: 15px;
+   font-weight: 200;
+   color: gray;
+   margin-top: 20px;
+   
+ }
+
+ .box-c h3 a{
+
+   text-decoration: none;
+   color: rgb(69, 61, 61);
+}
+
+.box-c h3 a:hover{
+
+   border-bottom: 1px solid black;
+}
+
+ /* <!-- last div support --> */
+ 
+ .support{
+
+   width: 100%;
+   height: 100vh;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   background-color: black;
+    padding: 50px;
+ }
+
+.support-1 ul{
+   list-style: none;   
+ }
+
+ .support-1 ul li{
+   margin-top: 20px;
+ }
+
+ .support-1 ul li a{
+   text-decoration: none;
+   color: gray;  
+ }
+
+ .support-1 ul li a:hover{
+
+   border-bottom: 1px solid white;
+   color: rgb(248, 243, 243);
+  
+ }
+
+ .shop-learn{
+
+   height: 83vh;
+   list-style: none;
+   /* border: 1px solid white; */
+
+ }
+
+ 
+ .shop-learn li{
+   margin-top: 20px;
+   
+ }
+
+ .shop-learn ul li a{
+   text-decoration: none;
+   color: gray;  
+ }
+
+ .shop-learn ul li a:hover{
+
+   border-bottom: 1px solid white;
+   color: rgb(248, 243, 243);
+  
+ }
+
+ 
+ .retail-store{
+
+   height: 83vh;
+   list-style: none;
+   /* border: 1px solid white; */
+
+ }
+
+ 
+ .retail-store li{
+   margin-top: 20px;
+   
+ }
+
+ .retail-store ul li a{
+   text-decoration: none;
+   color: gray;  
+ }
+
+ .retail-store ul li a:hover{
+
+   border-bottom: 1px solid white;
+   color: rgb(248, 243, 243);
+  
+ }
+
+
+ .about-us{
+
+   height: 83vh;
+   list-style: none;
+   /* border: 1px solid white; */
+
+ }
+
+ 
+ .about-us li{
+   margin-top: 20px;
+   
+ }
+
+ .about-us ul li a{
+   text-decoration: none;
+   color: gray;  
+ }
+
+ .about-us ul li a:hover{
+
+   border-bottom: 1px solid white;
+   color: rgb(248, 243, 243);
+  
+ }
+
+ /* follow mi */
+
+ .follow-mi{
+
+   width: 25%;
+   height: 83vh;
+   /* border: 1px solid wheat; */
+ }
+
+ .follow-mi h2{
+
+   font-size: 20px;
+   font-weight: 500;
+ }
+
+ .follow-mi h3{
+
+   margin-top: 80px;
+ }
+
+ .follow-mi input{
+
+   width: 300px;
+   height: 40px;
+   margin-top: 10px;
+   background-color: transparent;
+   border: 1px solid white;
+   border-radius: 10px;
+}
+
+.follow-mi input pla{
+
+   margin-left: 10px;
+}
+
+/* .box-get{
+
+   border: 1px solid white;
+   width: 100%;
+   height: 30vh;
+   margin-top: 30px;
+   border-radius: 10px;
+   list-style: none;
+ } */
+
+
+.box-get h4{
+
+   width: 50%;
+   margin-top: 30px;
+   margin-left: 100px;
+   /* border: 1px solid wheat; */
+    
+}
+
+.box-get p{
+
+   margin-top: 10px;
+   margin-left: 100px;
+   margin-bottom: 30px;
+   /* border-bottom: 1px solid white; */
+}
+
+.box-get hr{
+
+   margin-top: 20px;
+ }
+
+.box-get ul li{
+   margin-top: 10px;
+   margin-left: 70px;
+}
+
+.box-get ul li a{
+
+   text-decoration: none;
+   color: white;
+}
+
+.box-get ul li a:hover{
+
+   border-bottom: 1px solid white;
+   
+}
+
+/* ::placeholder{
+   padding: 10px;
+} */
+
+#place{
+   padding: 10px;
+}
+.barcode{
+   width: 300px;
+   display: flex;
+   flex-direction: column;
+  
+   border: 1px solid white;
+   border-radius: 10px;
+   margin-top: 20px;
+}
+.barcode img{
+   width: 60px;
+   height: 60px;
+}
+.barcode span{
+   width: 100%;
+   text-align: justify;
+   margin-left: -50px;
+ 
+}
+.barcode .line{
+   height: 50px;
+   border-top: 1px solid white;
+   margin-left: 1px;
+
+}
+
+.box-barcode{
+
+   width: 300px;
+   display: flex;
+   align-items: center;
+   justify-content: center; 
+   padding-left: 20px;
+ 
+}
+
+.line a{
+   
+   color: white;
+   margin-top: 0px;
+   font-size: 16px;
+   margin-left: 60px;
+   margin-top: 20px;
+   text-decoration: none;   
+   /* border: 1px solid gold; */
+}
+
+.line a:hover{
+
+   border-bottom: 1px solid white;
+}
+
+.footer{
+
+   width: 100%;
+   color: white;
+   background-color: black;
+   display: flex;
+   padding: 50px;
+   border-top: 1px solid rgb(164, 157, 157);
+
+}
+
+.copyright{
+
+   width: 40%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   justify-content: space-between;
+   /* border: 1px solid red; */
+ }
+
+ .copyright a{
+   text-decoration: none;
+   color: white;
+}
+
+.copyright a:hover{
+
+   border-bottom: 1px solid white;
+}
+
+
+.sitemap{
+
+   width: 60%;
+   /* border: 1px solid red; */
+   display: flex;   
+   justify-content: end;
+      
+}
+
+.sitemap a{
+
+   width: 100px;
+   text-decoration: none;
+   color: white;
+}
+
+.sitemap a:hover{
+
+   border-bottom: 1px solid white;
+}
+
+
